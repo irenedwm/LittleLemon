@@ -16,3 +16,4 @@ class SingleMenuItemView(generics.RetrieveUpdateAPIView):
 class BookingViewSet(viewsets.ModelViewSet):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
+
